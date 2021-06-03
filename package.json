@@ -1,0 +1,34 @@
+{
+  "name": "irobot-microservice",
+  "version": "1.0.0",
+  "description": "Microservice for iRobot vacuums and mops",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoboDomo/irobot-microservice.git"
+  },
+  "keywords": [
+    "RoboDomo",
+    "NodeJS",
+    "Microservice",
+    "Docker",
+    "iRobot",
+    "Roomba"
+  ],
+  "author": "Michael Schwartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoboDomo/irobot-microservice/issues"
+  },
+  "homepage": "https://github.com/RoboDomo/irobot-microservice#readme",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "dorita980": "^3.1.8",
+    "microservice-core": "github:robodomo/microservice-core",
+    "nodemon": "^2.0.7"
+  }
+}
